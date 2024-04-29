@@ -1,0 +1,11 @@
+[package]
+name = "rcli"
+version = "0.1.0"
+authors = ["luohuidong <luohuidong01@126.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+duckdb = { version = "0.10.2", features = ["bundled"] }
